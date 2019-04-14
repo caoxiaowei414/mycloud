@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaowei.eurekaprovider8001.dao.mapper.cardpackage.MCardpackageMapper">
+  <resultMap id="BaseResultMap" type="com.xiaowei.eurekaprovider8001.entity.cardpackage.MCardpackage">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="package_id" jdbcType="BIGINT" property="packageId" />
+    <result column="package_name" jdbcType="VARCHAR" property="packageName" />
+    <result column="flow_size" jdbcType="BIGINT" property="flowSize" />
+    <result column="stand_price" jdbcType="INTEGER" property="standPrice" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+</mapper>
